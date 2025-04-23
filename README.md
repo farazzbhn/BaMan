@@ -1,4 +1,4 @@
-1. اندپوینت rpc/ با body زیر :
+1. اندپوینت rpc/ با body زیر : \n
 ` {"name":"F1","params":{"p1":"string"}} `
 
 2.هندلر ریکوئست در تایپیک RPCMessage توسط redis pub/sub در سیستم publish می شود
