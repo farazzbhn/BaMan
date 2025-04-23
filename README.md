@@ -1,6 +1,6 @@
 1. اندپوینت rpc/ با body زیر : \
-` {"name":"F1","params":{"p1":"string"}} `
-\
+` {"name":"F1","params":{"p1":"parameter 1 to pass to method F1"}} `
+
 
 2.هندلر ریکوئست در تایپیک RPCMessage توسط redis pub/sub در سیستم publish می شود\
 3. سرویس consumer ریجستر شده redis ( توسط پکیج کاستوم موجود در پروژه shared که برای پروژه نوشتم ) درخواست را دریافت کرده ، با ریفلکشن به متد تعیین شده پاس میدهد  و  پاسخ را با استفاده از c# channels در چنل RPCResult پاپلیش میکند\
