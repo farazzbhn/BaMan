@@ -7,5 +7,6 @@
 4. سرویس listener رجیستر شده برای RPCResult ، پیام دریافتی را با استفاده از سرویس RPCService ذخیره میکند.\
 5. سرویس RPCService با استفاده از semaphore به هندلر اطلاع میدهد که پاسخی برای RPC اولیه دریافت شده ، \
 6. هندلر پاسخ  را به کلاینت باز میگرداند. ( یا خطای تایم اوت را )\
-Also , ManagedRedis & ManagedChannel are my own implementations.\
 و برای run کردن ، redis رو روی port 6379 نیاز داریم\
+
+کد های داخل shared بابت managedRedis و ManagedChannel رو هم برای پروژه نوشتم
