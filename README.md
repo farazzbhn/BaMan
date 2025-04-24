@@ -1,6 +1,6 @@
 پروژه با هدف Remote Procedure Call و برگردان return value ( یا خطا و یا timeout) به کلاینت
  
-1. اندپوینت rpc/ با body زیر invoke میشود  : ( F1 اسم یکم متد دیفاین شده در کلاس RemoteService با پارامتر P1 است ) \
+1. اندپوینت rpc/ با body زیر invoke میشود  : ( F1 اسم یکم متد دیفاین شده در کلاس RemoteService با پارامتر p1 است ) \
 ` {"name":"F1","params":{"p1":"parameter 1 to pass to method F1"}} `
 
 
