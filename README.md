@@ -1,3 +1,5 @@
+پروژه با هدف Remote Procedure Call و برگردان return value ( یا خطا و یا timeout) به کلاینت
+ 
 1. اندپوینت rpc/ با body زیر : \
 ` {"name":"F1","params":{"p1":"parameter 1 to pass to method F1"}} `
 
